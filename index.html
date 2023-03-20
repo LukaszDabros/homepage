@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wielki Błękit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/body.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/tableContainer.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/button.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body" id="up">
+  <header>
+    <h1 class="header__title">Wielki Błękit</h1>
+  </header>
+  <button class="button js-button">Płyń <span class="js-buttonName">pod wodę</span></button>
+
+  <nav>
+    <ul class="navigation">
+      <li class="navigation__element">
+        <a class="navigation__link" href="#story">O filmie</a>
+      </li>
+      <li class="navigation__element">
+        <a class="navigation__link" href="#crew">Obsada</a>
+      </li>
+      <li class="navigation__element">
+        <a class="navigation__link" href="#music">Muzyka</a>
+      </li>
+      <li class="navigation__element">
+        <a class="navigation__link" href="#direct">Groupies</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="main__img">
+      <img src="https://www.kinorialto.poznan.pl/wp-content/uploads/2018/04/83dec50c68-Wielki-blekit.jpg" alt="Wielki Błękit">
+    </div>
+
+    <section>
+      <div>
+        <aside class="section__aside">
+          <a class="section__link" href="#up">&#8679</a>
+        </aside>
+        <h2 id="story" class="section__header">O filmie</h2>
+      </div>
+
+      <div class="section">
+        <p class="section__paragraph">
+          Jacques to homo delphinus - nurek, który lepiej czuje się w towarzystwie delfinów w ich morskim
+          królestwie, niż wśród ludzi. Rywalizuje z przyjacielem z dzieciństwa, Enzo, o mistrzowski tytuł we
+          <em class="section__emphasis">Free Diving </em>oraz bije kolejne rekordy głębokości w nurkowaniu bez butli. Walka, połączona z
+          wzajemną fascynacją obu bohaterów może doprowadzić do tragedii. Obaj przecież kochają morze i
+          nurkowanie na swój sposób i nie wyobrażają sobie życia bez niego. Wydaje się, że jest tam miejsce
+          dla nich obu, lecz co powie na tęsknoty Jacquesa Johana, kochająca tego dziwnego człowieka - delfina
+          całym sercem?
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <aside class="section__aside">
+          <a class="section__link" href="#up">&#8679</a>
+        </aside>
+        <h2 id="crew" class="section__header">Obsada</h2>
+      </div>
+
+      <div class="section">
+        <p class="section__paragraph">
+          Aktorzy zdają się czuć konwencję doskonale. Enzo w wykonaniu Reno to twardziel, który boi się mamy,
+          Jacques o niewinnej twarzy Barra mógłby wyskoczyć prosto z disnejowskiej baśni o delfinie
+          zamienionym w chłopca. Besson potrafi ograć cały komediowy potencjał ich związku, nie niszcząc
+          pokrywającej całość delikatnej powłoki mrocznego romantyzmu.
+        </p>
+      </div>
+
+      <div class="tableContainer">
+        <table class="table">
+          <caption class="table--caption">Główni aktorzy występujacy w filmie</caption>
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="col">ZDJĘCIE</th>
+            <th class="tableCell tableHeader" scope="col">IMIĘ I NAZWISKO</th>
+            <th class="tableCell tableHeader" scope="col">JAKO</th>
+          </tr>
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="row" rowspan="1">
+              <img class="table__cellImage" src="https://fwcdn.pl/ppo/01/29/129/450779.3.jpg" alt="Rosanna Arquette">
+            </th>
+            <td class="tableCell">Rosanna Arquette</td>
+            <td class="tableCell">Johanna Baker</td>
+          </tr>
+
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="row" rowspan="1">
+              <img class="table__cellImage" src="https://fwcdn.pl/ppo/00/88/88/449736.3.jpg" alt="Jean Reno">
+            </th>
+            <td class="tableCell">Jean Reno</td>
+            <td class="tableCell">Enzo Molinari</td>
+
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="row" rowspan="1">
+              <img class="table__cellImage" src="https://fwcdn.pl/ppo/41/21/4121/450530.3.jpg" alt="Jean-Marc Barr">
+            </th>
+            <td class="tableCell">Jean-Marc Barr</td>
+            <td class="tableCell">Jacques Mayol</td>
+          </tr>
+
+          <tr class="tableRow">
+            <th class="tableCell tableHeader" scope="row" rowspan="3">
+              <img class="table__cellImage" src="https://fwcdn.pl/fpo/16/73/11673/7627852.6.jpg" alt="w pozostałych rolach">
+            </th>
+            <td class="tableCell">Paul Shenar</td>
+            <td class="tableCell">Dr Laurence</td>
+
+          </tr>
+          <tr class="tableRow">
+            <td class="tableCell">Sergio Castellitto</td>
+            <td class="tableCell">Novelli</td>
+          </tr>
+          <tr class="tableRow">
+            <td class="tableCell">Jean Bouise</td>
+            <td class="tableCell">Wujek Louis</td>
+          </tr>
+
+        </table>
+      </div>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <aside class="section__aside">
+          <a class="section__link" href="#up">&#8679</a>
+        </aside>
+        <h3 id="music" class="section__header">Muzyka</h3>
+      </div>
+
+      <div class="section">
+        <p class="section__paragraph">
+          Muzyka z ”Wielkiego błękitu” stała się prawdziwym bestsellerem (ok. 3 milionów sprzedanych płyt),
+          dodatkowo zdobyła Cezara. Eric Serra posługując się bardziej rockowymi niż symfonicznymi środkami
+          wyrazu potrafił wykreować silnie pobudzającą wyobraźnię, często niezwykłą pod względem brzmień
+          muzykę. In plus tego oryginalnego wydania (pojawiały się również wydania rocznicowe oraz
+          rozszerzone) jest duża różnorodność Serra stara się nie powielać samego siebie. Wiele zasłyszanych
+          tutaj brzmień i rozwiązań można będzie usłyszeć w innych jego produkcjach z Lucem Bessonem, min. we
+          wspomnianym ”Piątym elemencie”. Muzyka jednak troszkę lepiej jednak wypadająca w filmie, którego
+          znajomość będzie potrzebna do zrozumienia bardziej abstrakcyjnych czy bijących eklektyzmem po uszach
+          fragmentów.
+        </p>
+
+        <div class="section__subTable">
+          <p class="section__subHeader">Lista utworów:</p>
+          <ol>
+            <li class="section__listItem">The Big Blue Overture (4:46)</li>
+            <li class="section__listItem">Deep Blue Dream (1:31)</li>
+            <li class="section__listItem">Sailing To Death (2:21)</li>
+            <li class="section__listItem">Rescue In A Wreck</li>
+            <li class="section__listItem">La Raya</li>
+            <li class="section__listItem">Huacracocha</li>
+            <li class="section__listItem">Water Works</li>
+            <li class="section__listItem">Between The Sky Scrapers</li>
+            <li class="section__listItem">Remebering A Heart Beat</li>
+            <li class="section__listItem">Spaghetti Del Mare</li>
+            <li class="section__listItem">Let Them Try</li>
+            <li class="section__listItem">Homo Delphinus</li>
+            <li class="section__listItem">TheMonastery Of Amorgos</li>
+            <li class="section__listItem">For Enzo</li>
+            <li class="lsection__istItem">Cruise Of The Dolphin Tribe</li>
+            <li class="section__listItem">Virgin Islands</li>
+            <li class="section__listItem">The Third Dive</li>
+            <li class="section__listItem">Leaving The World Behind</li>
+            <li class="section__listItem">My Lady Blue</li>
+          </ol>
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <aside class="footer__aside">
+        <a class="footer__subAside" href="#up">&#8679</a>
+      </aside>
+    </div>
+    <div class="footer__subFooter">
+      <div>
+        <h3 id="direct">Groupies</h3>
+        <div class="footer__contact">
+          <p><span class="footer__subContact">Tel:</span><a class="link" href="tel:+48.123.234.345"> 123 234
+              345</a></p>
+          <p><span class="footer__subContact">Mail:</span><a class="link" href="mailto:maniakbigblue@wp.pl">
+              maniakbigblue@wp.pl</a></p>
+        </div>
+      </div>
+      <p>Copyright &copy; 2023 Lukando</p>
+    </div>
+  </footer>
+</body>
+
+</html>
