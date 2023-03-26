@@ -1,13 +1,24 @@
-console.log("Witaj szperaczu!");
+{
+  const welcome() => {
+    console.log("Witaj szperaczu!");
+  }
 
-let buttonElement = document.querySelector(".js-button");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-buttonName");
+  const onChangeBackgroundClick = () => {
+    const body = document.querySelector(".js-body");
+    const themeName = document.querySelector(".js-buttonName");
 
-buttonElement.addEventListener("click", () => {
-  body.classList.toggle("dark");
+    body.classList.toggle("dark");
+    themeName.innerText = body.classList.contains("dark")
+      ? "na powierzchnię"
+      : "pod wodę";
+  };
 
-  themeName.innerText = body.classList.contains("dark")
-    ? "na powierzchnię"
-    : "pod wodę";
-});
+  const init = () => {
+    const buttonElement = document.querySelector(".js-button");
+    buttonElement.addEventListener("click", onChangeBackgroundClick);
+
+    welcome();
+  };
+
+  init();
+}
