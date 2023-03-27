@@ -1,0 +1,27 @@
+.navigation {
+    list-style: none;
+}
+
+.navigation__element {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #0396a6;
+    border-radius: 2px;
+    outline: 2px solid #050505;
+    box-shadow: 1px 1px 5px 8px #230763;
+    background-color: #230763;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    margin: 10px;
+}
+
+.navigation__link {
+    color: #c1e6ff;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: #53e9ee;
+    border-bottom: 2px solid;
+}

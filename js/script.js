@@ -1,7 +1,7 @@
 {
-  const welcome() => {
+  const welcome = () => {
     console.log("Witaj szperaczu!");
-  }
+  };
 
   const onChangeBackgroundClick = () => {
     const body = document.querySelector(".js-body");
