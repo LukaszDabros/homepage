@@ -1,5 +1,5 @@
 {
-  const welcome() => {
+  const welcome = () => {
     console.log("Witaj szperaczu!");
   }
 
