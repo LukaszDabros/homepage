@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header__title {
     color: #162000;
     background-color: #c8eeff;
@@ -6,3 +7,13 @@
     padding: 0 5 0 25px;
 }
 
+=======
+.header__title {
+    color: #162000;
+    background-color: #c8eeff;
+    text-align: center;
+    font-size: 34px;
+    padding: 0 5 0 25px;
+}
+
+>>>>>>> 23d043107ba85f3732f9dcfabb1ead9253a1b689
