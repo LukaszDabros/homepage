@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .tableContainer {
     overflow-x: auto;
     margin: 0 0 0 15px;
@@ -52,59 +51,4 @@
 .tableRow:nth-child(odd) {
     background-color: #a6b6fa;
     color: #3e216d;
-=======
-.tableContainer {
-    overflow-x: auto;
-    margin: 0 0 0 15px;
-}
-
-.table {
-    border-collapse: collapse;
-    margin: auto;
-}
-
-.table--caption {
-    text-align: center;
-    margin-bottom: 15px;
-    font-size: 25px;
-}
-
-.tableRow {
-    border: 1px solid #020f4b;
-    padding: 12px;
-    text-align: center;
-    margin: auto;
-}
-
-.tableRow:hover {
-    background-color: #2921a1;
-    color: #a584cf;
-}
-
-.tableCell {
-    border: 2px solid #020f4b;
-    padding: 12px;
-    text-align: center;
-    margin: auto;
-}
-
-.table__cellImage {
-    text-align: center;
-    margin: 0 auto;
-    width: 150px;
-    max-width: 150px;
-    line-height: 20px;
-    vertical-align: middle;
-}
-
-.tableHeader {
-    color: #ffffff;
-    background-color: #1261a6;
-    font-weight: normal;
-}
-
-.tableRow:nth-child(odd) {
-    background-color: #a6b6fa;
-    color: #3e216d;
->>>>>>> 23d043107ba85f3732f9dcfabb1ead9253a1b689
 }

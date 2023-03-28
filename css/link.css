@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .link {
     color: #c1e6ff;
     text-decoration: none;
@@ -7,14 +6,4 @@
 .link:hover {
     color: #53e9ee;
     border-bottom: 2px solid;
-=======
-.link {
-    color: #c1e6ff;
-    text-decoration: none;
-}
-
-.link:hover {
-    color: #53e9ee;
-    border-bottom: 2px solid;
->>>>>>> 23d043107ba85f3732f9dcfabb1ead9253a1b689
 }
