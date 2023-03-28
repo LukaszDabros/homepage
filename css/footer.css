@@ -1,3 +1,39 @@
+.footer {
+    color: #060030;
+    background-color: #77abd9;
+    height: 250px;
+    border: 3px solid #1261a6;
+}
+
+.footer__aside {
+    width: 40px;
+    height: 30px;
+    float: right;
+    font-size: 23px;
+    background-color: #230763;
+    font-style: normal;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10 10 0 16px;
+}
+
+.footer__subAside {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer__subAside:hover {
+    color: #53e9ee;
+}
+
+.footer__subContact {
+    font-weight: bold;
+}
+
+.footer__subFooter {
+    text-align: center;
+    margin: 50px 0;
+}
 
 .footer__contact {
     line-height: 0.5;
