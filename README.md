@@ -3,7 +3,7 @@
 ## Screenshots
 How it works
 
-![Using]"video/Animation-BigBlue.gif"
+![demo](video/Animation-BigBlue.gif)
 
 ## First page
 The technologies used in my project, thanks to participation in the YouCode programming course are: 
