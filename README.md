@@ -16,4 +16,4 @@ The technologies used in my project, thanks to participation in the YouCode prog
 - GIT
 
 ## Demo
-https://lukaszdabros.github.io/hompage
+https://lukaszdabros.github.io/homepage
