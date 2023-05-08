@@ -7,8 +7,8 @@
     const body = document.querySelector(".js-body");
     const themeName = document.querySelector(".js-buttonName");
 
-    body.classList.toggle("dark");
-    themeName.innerText = body.classList.contains("dark")
+    body.classList.toggle("body--dark");
+    themeName.innerText = body.classList.contains("body--dark")
       ? "na powierzchnię"
       : "pod wodę";
   };
